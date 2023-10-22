@@ -8,5 +8,5 @@ While we may not have incorporated JavaScript yet, our dedication to simplicity 
 ### It's worth mentioning that our website is not yet fully responsive, but rest assured, we are actively working on optimizing it for all devices.
 We understand the importance of a smooth user experience, and our team is committed to making your visit enjoyable, whether you're on a computer, tablet, or smartphone.
 
-###Come, explore Bella, and get ready to embark on a delightful shopping journey.
+### Come, explore Bella, and get ready to embark on a delightful shopping journey.
 Your satisfaction is our priority, and we are excited to have you on board as we strive to make Bella your favorite online shopping destination.

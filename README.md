@@ -10,3 +10,6 @@ We understand the importance of a smooth user experience, and our team is commit
 
 ### Come, explore Bella, and get ready to embark on a delightful shopping journey.
 Your satisfaction is our priority, and we are excited to have you on board as we strive to make Bella your favorite online shopping destination.
+
+## THE LINK OF THE WEBSITE
+https://bella-project.netlify.app

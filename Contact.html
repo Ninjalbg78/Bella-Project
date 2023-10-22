@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel = "stylesheet" href = "CSS/Shirts.css">
+     <link rel = "stylesheet" href = "CSS/style.css">
+     <link rel = "stylesheet" href = "CSS/general.css">
+     <link rel = "stylesheet" href="CSS/Blog.css">
+     <link rel = "stylesheet" href = "CSS/Contact.css">
+     <link rel = "icon" href = "img/Logos/online-shop.png">
+     <script defer src = "JS/About.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Bella-Project</title>
+  </head>
+  <body>
+    <section class = "header-shop">
+      <div class="Main-nav">
+        <div class="Nav-left">
+          <div class="container-Logo">
+            <img src="img/Logos/Logo-Bella.png" class = "Logo-Bella" alt = "Logo-Bella" />
+          </div>
+          <div class = "container-links">
+            <nav>
+              <ul class = "main-nav-list">
+                <li><a href = "index.html" class="nav-links">Home</a></li>
+                <li class = "nav-item"><a href = "#" class="nav-links">Shop</a>
+                    <ion-icon name="chevron-down-outline" class = "dropdown-icon"></ion-icon>
+                    <nav class = "dropdown-menu">
+                      <ul class = "nav-list-open">
+                        <li><a href = "Shirts.html" class = "nav-links-open">Shirts</a></li>
+                        <li><a href = "Sneakers.html" class = "nav-links-open">Sneakers</a></li>
+                        <li><a href = "Sweat-Shirts.html" class = "nav-links-open">Sweat-Shirts</a></li>
+                        <li><a href = "T-Shirts.html" class = "nav-links-open">T-Shirts</a></li>
+                      </ul>
+                    </nav>
+                    
+                </li>
+                <li><a href = "Blog.html" class="nav-links">Blog</a></li>
+                <li><a href = "About.html" class="nav-links">About</a></li>
+                <li><a href = "Contact.html" class="nav-links">Contact</a></li>
+            </nav>
+          </div>
+        </div>
+        <div class = "Nav-right">
+            <a href = "FAQ.html" class = "FAQ-link">faq</a>
+          <input type = "search" placeholder = "Search" class = "input-search" required>
+          <button class = "store-btn">
+            <ion-icon name="storefront-outline" class = "storefront"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class = "category-shirt-container">
+        <div class = "header-intro">
+          <div class = "title-shirts">
+            <span class = "text-color-shop">Contact</span>
+            Us
+          </div>
+          <h1 class = "page-heading-shop">Let's Get in Touch</h1>
+          <div class = "divider-color"></div>
+        </div>
+      </div>
+      <div class = "mini-nav">
+        <a href = "index.html" class = "link-dark">Home</a>
+        <ion-icon name="chevron-forward-outline" class = "icon-chevron"></ion-icon>
+        <a href = "Shirts.html" class = "link-dark" style = "color: #888;">Contact</a>
+      </div>
+    </section>
+    <section class = "contact-section">
+      <div class = "wrapper">
+        <div class = "container-contact">
+          <div class = "contact-form">
+            <h3>Contact Us</h3>
+            <div class = "container-fom">
+              <form class = "form-inputs">
+                <input type = "text" class = "input" placeholder = "Your Name" name = "Contact-Name"required>
+                <input type = "email" class = "input" placeholder = "Email Address" name = "Contact-Email"required>
+                <textarea name = "Contact-Message" class = "input-message" placeholder = "Message" maxlength="5000" required></textarea>
+                <input type = "submit" class = "submit-btn" value = "Subscribe" required>
+              </form>
+            </div>
+          </div>
+          <div class = "contact-info">
+            <h4>Address</h4>
+            <div class = "contact-address">
+              Unit 286, Elastic Themes Campus,
+              <br>
+              2091 Mission Street,
+              <br>
+              San Francisco, CA 94110
+            </div>
+            <a href = "#map" target = "_blank" class = "link-map">on The Map</a>
+            <div class = "contacts">
+              <strong>Email us:</strong>
+              <a href = "#" class = "link-grey">
+                Bella@gmail.com
+                <br>
+              </a>
+              <strong>Call us:</strong>
+              <span class = "text-grey">+1 213 974-3898</span>
+            </div>
+            <h4>Follow</h4>
+            <div class = "social-links">
+              <a href = "#" class = "share-link" target="_blank">
+                <img class = "share-img-link" src = "img/Logos/logo-twittter.svg">
+              </a>
+              <a href = "#" class = "share-link" target="_blank">
+                <img class = "share-img-link" src = "img/Logos/logo-facebook.svg">
+              </a>
+              <a href = "#" class = "share-link" target="_blank">
+                <img class = "share-img-link" src = "img/Logos/logo-instagram.svg">
+              </a>
+              <a href = "#" class = "share-link" target="_blank">
+                <img class = "share-img-link" src = "img/Logos/logo-pinterest.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "section-map">
+      <div class = "container-map" id = "map">
+          <div class = "map-intro">
+            <div class = "title-map">
+              <span class = "text-color">Easy</span>
+              to Find
+            </div>
+            <h2>Our Store Location</h2>
+            <div class = "divider-color"></div>
+          </div>
+        <div class = "container-map-location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.9601418096468!2d34.776496475496295!3d32.070326773967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b7f371e9269%3A0xcbe4e6ceeb320a!2sSderot%20Rothschild%20128%2C%20Tel%20Aviv-Jaffa%2C%20Isra%C3%ABl!5e0!3m2!1sfr!2sfr!4v1697975855124!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class = "section-cta">
+      <div class = "cta-padding">
+        <div class = "cta-container">
+          <div class = "cta-title">
+               Get your <span class = "text-color">10% off!</span>
+          </div>
+            <div class = "cta-heading">Join Our Maling List</div>
+          <form class = "form-cta">
+            <ion-icon name="at-outline" class = "arobas-icon"></ion-icon>
+            <input class = "subscribe-email" type = "email" placeholder="Email address" required>
+            <button class = "btn-subscribe">
+             subscribe
+            </button>
+          </form>
+          <div class = "cta-Privacy">
+            We never share your info. View our <a class = "link-privacy" href = "#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "section-gallery">
+      <div class = "container-instagram">
+        <div class = "gallery-left">
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img1.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img5.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img3.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img7.jpg">
+          </div>
+        </div>
+        <div class = "gallery-middle">
+          <div class = "container-logo">
+            <img class = "logo-instagram" src = "img/gallery/instagram (1).png">
+          </div>
+          <div class = "title">
+            <span class = "text-color insta">Follow</span>
+            Us on
+          </div>
+          <h2 class = "instagram-heading">Instagram</h2>
+        </div>
+        <div class = "gallery-right">
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img2.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img6.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img4.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img8.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class ="section-footer">
+      <div class = "footer">
+        <div class = "footer-links">
+          <h6 class = "footer-heading">shop</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "Shirts.html" class = "link">Shirts</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Sneakers.html" class = "link">Sneakers</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Sweat-Shirts.html" class = "link">Sweat-shirts</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "T-Shirts.html" class = "link">T-Shirts</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-links">
+          <h6 class = "footer-heading">pages</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "index.html" class = "link">Home</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Blog.html" class = "link">Blog</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "About.html" class = "link">About</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "FAQ.html" class = "link">FAQ</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Contact.html" class = "link">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-links">
+          <h6 class = "footer-heading">Others Projects</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "#" class = "link">Portfolio</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "https://elishay.netlify.app" class = "link">Omnifood</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "index.html" class = "link">Bella</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-subscribe">
+          <h6 class = "footer-heading">newsletter</h6>
+          <div class = "container-input">
+            <ion-icon name="at-outline" class = "footer-icon"></ion-icon>
+            <input class = "subscribe-email" type = "email" placeholder="Email address" required>
+            <ion-icon name="send-outline" class = "send-button"></ion-icon>
+          </div>
+          <div class = "cta-Privacy">
+            We never share your info. View our <a class = "link-privacy" href = "#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class = "last-container">
+        <div class = "creator-web-container">
+          Created with love by
+          <a class = "link-elishay" href = "#">
+            Elishay Assayagh
+          </a>
+        </div>
+        <div class = "bank-img-container">
+          <div class = "div-img">
+            <img class = "img-card" src = "img/Logos/Logo-visa.png">
+          </div>
+          <div class = "div-img">
+            <img class = "img-card" src = "img/Logos/Logo-master-card.png">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

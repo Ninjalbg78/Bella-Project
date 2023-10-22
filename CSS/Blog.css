@@ -1,0 +1,155 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+.section-blogs {
+  padding: 12.8rem 2.4rem;
+}
+.container-blog-section {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container-blog-img {
+  width: 73.5rem;
+  height: 43.2rem;
+}
+
+.card-text {
+  width: 75.5rem;
+  height: 16.3rem;
+}
+.container-card-date {
+  width: 20%;
+}
+.card-heading {
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  font-family: "Lora", sans-serif;
+}
+.container-card-date {
+  width: 12rem;
+  height: 16rem;
+  padding-top: 3.6rem;
+}
+.container-tags-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 5.6rem;
+}
+.container-link-tag {
+  border: 1px solid #e8e8e8;
+  transition: all 0.4s ease;
+}
+.container-link-tag:hover {
+  background-color: #ff6852;
+  border: 1px solid #ff6852;
+}
+.link-tag:link,
+.link-tag:visited {
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  color: #151515;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  transition: color 0.4s ease;
+}
+.link-tag:hover,
+.link-tag:active {
+  color: #e8e8e8;
+}
+.shop-sidebar {
+  width: 100%;
+}
+.sidebar-heading {
+  font-family: "Lora", sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+.text-color-blog {
+  color: #ff6852;
+}
+.subscribe-email {
+  height: 48px;
+  margin-bottom: 24px;
+  padding: 0.8rem 2.8rem 0.9rem;
+  padding-left: 3.6rem;
+}
+.btn-subscribe {
+  height: 4.8rem;
+  padding-right: 8.8rem;
+  padding-left: 8.8rem;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+.container-pub {
+  padding-bottom: 5.6rem;
+}
+.container-sidebar-blog {
+  width: 30rem;
+  margin-left: 5.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.banner-header {
+  padding: 3.2rem 2rem 2.4rem;
+  text-align: center;
+}
+.small-title {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 0.4rem;
+  font-family: "Great Vibes", cursive;
+}
+.img-pub-shop {
+  width: 100%;
+  height: 100%;
+}
+.container-shop-pub {
+  border: 2px solid #ff6852;
+  position: relative;
+}
+.link-shop:link,
+.link-shop:visited {
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #151515;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.4rem 2.8rem;
+  border-radius: 24px;
+  position: absolute;
+  top: 57%;
+  left: 30%;
+  transition: all 0.4s ease;
+}
+.link-shop:hover,
+.link-shop:active {
+  background-color: #ff6852;
+  color: #fff;
+}
+.card-blog {
+  padding-bottom: 5.6rem;
+}
+.blog-link:link,
+.blog-link:visited {
+  color: #151515;
+  text-decoration: none;
+}

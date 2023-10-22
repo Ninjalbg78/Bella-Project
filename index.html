@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Rubik:wght@400;500;600;700&display=swap"
+     rel="stylesheet">
+     <link rel = "stylesheet" href = "CSS/style.css">
+     <link rel = "stylesheet" href = "CSS/general.css">
+     <link rel = "stylesheet" href = "CSS/Queries.css">
+     <link rel = "icon" href = "img/Logos/online-shop.png">
+     <script defer src = "JS/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Bella-Project</title>
+  </head>
+  <body>
+    <section class = "header" id = "header">
+      <div class="Main-nav">
+        <div class="Nav-left">
+          <div class="container-Logo">
+            <img src="img/Logos/Logo-Bella.png" class = "Logo-Bella" alt = "Logo-Bella" />
+          </div>
+          <div class = "container-links">
+            <nav>
+              <ul class = "main-nav-list">
+                <li><a href = "index.html" class="nav-links">Home</a></li>
+                <li class = "nav-item"><a href = "#" class="nav-links">Shop</a>
+                    <ion-icon name="chevron-down-outline" class = "dropdown-icon"></ion-icon>
+                    <nav class = "dropdown-menu">
+                      <ul class = "nav-list-open">
+                        <li><a href = "Shirts.html" class = "nav-links-open">Shirts</a></li>
+                        <li><a href = "Sneakers.html" class = "nav-links-open">Sneakers</a></li>
+                        <li><a href = "Sweat-Shirts.html" class = "nav-links-open">Sweat-Shirts</a></li>
+                        <li><a href = "T-Shirts.html" class = "nav-links-open">T-Shirts</a></li>
+                      </ul>
+                    </nav>
+                    
+                </li>
+                <li><a href = "Blog.html" class="nav-links">Blog</a></li>
+                <li><a href = "About.html" class="nav-links">About</a></li>
+                <li><a href = "Contact.html" class="nav-links">Contact</a></li>
+            </nav>
+          </div>
+        </div>
+        <div class = "Nav-right">
+            <a href = "FAQ.html" class = "FAQ-link">faq</a>
+          <input type = "search" placeholder = "Search" class = "input-search" required>
+          <button class = "store-btn">
+            <ion-icon name="storefront-outline" class = "storefront"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class = "container-hero grid--2-cols">
+        <div  class = "text-container">
+          <p class = "title"><span class = "text-color">Say Hello</span> to Bella</p>
+          <h1 class = "hero-heading">Discover a Fresh and Stylish 
+            Shopping Experience
+             with
+            <span class = "text-bella">Bella</span>
+          </h1>
+          <a href = "Shirts.html" class = "btn-shop">shop now</a>
+        </div>
+        <div class = "img-container">
+          <img src = "img/Hero-img/hero-img2.png" class = "hero-img" alt = "A Welcome Picture">
+        </div>
+      </div>
+    </section>
+    <section class = "features container">
+      <a class = "link-shop" href = "#header">
+        <div class = "btn-animation">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrow-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+          </svg>          
+        </div>
+      </a>
+      <div class = "service grid--4-cols">
+        <div class = "featured">
+          <div class = "container-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logo">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
+            </svg>        
+          </div>
+          <div class = "service-info">
+            <h6>100% QUALITY</h6>
+            <p class = "service-text">
+              Discover the pinnacle of quality with our products.
+               Impeccable craftsmanship that speaks for itself.
+            </p>
+          </div>
+        </div>
+        <div class = "featured">
+          <div class = "container-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logo">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+            </svg>
+          </div>
+          <div class = "service-info">
+            <h6>free shipping</h6>
+            <p class = "service-text">
+              Enjoy the luxury of doorstep delivery without the extra cost.
+               We ship your happiness to you, wherever you are.
+            </p>
+          </div>
+        </div>
+        <div class = "featured">
+          <div class = "container-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logo">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          </div>
+          <div class = "service-info">
+            <h6>secure payment</h6>
+            <p class = "service-text">
+              Your security is our priority. 
+              Shop with confidence, knowing your transactions are protected by the latest encryption technology.
+            </p>
+          </div>
+        </div>
+        <div class = "featured">
+          <div class = "container-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logo">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+            </svg>
+          </div>
+          <div class = "service-info">
+            <h6>free return</h6>
+            <p class = "service-text">
+              Not completely satisfied? No worries! We offer easy and free returns,
+               ensuring your peace of mind with every purchase.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "category container">
+       <div class = "categories-intro">
+        <div class = "categories-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="category-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div class = "categories-heading">
+          Shop by Category
+        </div>
+      </div>
+
+      <div class = "container-cards grid container" style = "margin-left: 10rem;" >
+        <div class = "product-card1">
+          <img class = "card-img
+          " src = "img/Sweat-Shirts/Sweat-Shirt4.webp" alt ="Sweat Shirt">
+          <a href = "Sweat-Shirts.html" class = "btn-category">Sweat-Shirts &rarr;</a>
+        </div>
+        <div class = "product-card1 card">
+          <img class = "card-img
+          " src = "img/T-shirts/T-Shirt-burberry2.webp" alt = "T-Shirt">
+          <a href = "T-Shirts.html" class = "btn-category">T-Shirts &rarr;</a>
+        </div>
+          <div class = "product-card1">
+            <img class = "card-img card-specify"
+             src = "img/Sneakers/Shoe-Prada5hover.webp" alt = "Sneakers">
+            <a href = "Sneakers.html" class = "btn-category ">Sneakers &rarr;</a>
+          </div>
+          <div class = "product-card1">
+            <img class = "card-img
+            " src = "img/Shirts/Shirt-Gucci5.webp" alt = "Shirt-Gucci">
+            <a href = "Shirts.html" class = "btn-category">Shirts &rarr;</a>
+          </div>    
+      </div>
+    </section>
+    <section class = "bestsellers">
+      <div class = "bestsell-intro">
+        <div class = "bestsell-title">
+          <p class = "text">
+            <span class = "text-color">Explore</span> 
+            the Shop
+          </p>
+        <div>
+        <h2>Our Bestsellers</h2>
+        <div class = "border"></div>
+      </div> 
+    </section>
+    <section class = "list-products">
+      <div class = "product-grid">
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sweat-Shirts/Sweat-Shirt2.webp" alt = "Louis Vuitton Sweat-Shirt">
+            <img class = "img-hover" src = "img/Sweat-Shirts/Sweat-Shirt2hover.webp" alt = "young-man wears The Sweat-Shirt">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product"> Black Louis Vuitton Sweat-Shirt</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/T-shirts/T-Shirt-burberry2.webp" alt = "T-Shirt Burberry">
+            <img class = "img-hover" src = "img/T-shirts/T-Shirt-burberry2hover.webp" alt = "young-man wears The T-Shirt-Burberry">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product">T-Shirt Burberry</div>
+            <div class = "price-product">$54.95$</div>
+          </div> 
+        </div> 
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sweat-Shirts/Sweat-Shirt5.webp" alt = "Bella Sweat-Shirt">
+            <img class = "img-hover" src = "img/Sweat-Shirts/Sweat-Shirt5hover.webp" alt = "youngman wears The Bella Sweat-shirt">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product"> Bella Sweat-Shirt</div>
+            <div class = "price-product">$1040$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sneakers/Shoe-Prada1.webp" alt = "Prada-Shoe">
+            <img class = "img-hover" src = "img/Sneakers/Shoe-Prada1Hover.webp" alt = "Prada Shoe">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product"> Blue Prada Shoe</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Shirts/Shirt-Gucci5.webp" alt = "Shirt-Gucci">
+            <img class = "img-hover" src = "img/Shirts/Shirt-Gucci5Hover.webp" alt = "young-man wears The Shirt-Gucci">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product">Shirt Gucci</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sweat-Shirts/Sweat-Shirt6.webp" alt = "Louis-Vuitton Sweat-Shirt">
+            <img class = "img-hover" src = "img/Sweat-Shirts/Sweat-Shirt6hover.webp" alt = "young-man wears The Sweat-Shirt">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product">Blue Louis-Vuitton Sweat-Shirt</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sweat-Shirts/Sweat-Shirt7.webp" alt = "clothe-louisVuitton">
+            <img class = "img-hover" src = "img/Sweat-Shirts/Sweat-Shirt7hover.webp" alt = "young-man wears The clothe">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product"> Brown Louis Vuitton Sweat-Shirt</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+        <div class = "product-card">
+          <div class = "container-img">
+            <img class = "img" src = "img/Sneakers/Shoe-Prada3.webp" alt = "clothe-louisVuitton">
+            <img class = "img-hover" src = "img/Sneakers/Shoe-Prada3Hover.webp" alt = "young-man wears The clothe">
+          </div>
+          <div class = "product-details">
+            <div class = "name-product">Belge Prada Shoe</div>
+            <div class = "price-product">$54.95$</div>
+          </div>  
+        </div>
+      </div>
+      <div class = "container-btn-product">
+        <a href = "Shirts.html" class = "btn-products">all products</a>
+      </div>
+    </section>
+    <section class = "promo-section">
+      <div class = "promo-container">
+        <div class = "promo-img">
+        <img class = "computer-img-promo" src = "img/Hero-img/hero-img-3.jpg" alt = "a man who's shopping on a computer with a bank card">
+        </div>
+        <div class = "promo-text">
+          <div class = "badge">spring sale!</div>
+          <div class = "promo-heading">
+              Up to <span class = "text-color1">50% OFF</span> The Most Popular
+              Items!
+          </div>
+          <a class = "btn-shop" href = "Shirts.html">shop now</a>
+        </div>
+      </div>
+    </section>
+    <section class = "section-cta">
+      <div class = "cta-padding">
+        <div class = "cta-container">
+          <div class = "cta-title">
+               Get your <span class = "text-color">10% off!</span>
+          </div>
+            <div class = "cta-heading">Join Our Maling List</div>
+          <form class = "form-cta">
+            <ion-icon name="at-outline" class = "arobas-icon"></ion-icon>
+            <input class = "subscribe-email" type = "email" placeholder="Email address" required>
+            <button class = "btn-subscribe">
+             subscribe
+            </button>
+          </form>
+          <div class = "cta-Privacy">
+            We never share your info. View our <a class = "link-privacy" href = "FAQ.html">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "section-blog">
+      <div class = "blog-container">
+        <div class = "blog-intro">
+          <div class = "blog-title">
+            <span class = "text-color">Explore</span>
+            the Blog
+          </div>
+          <div class = "blog-heading">Latest Posts & Updates</div>
+          <div class = "blog-border"></div>
+        </div>
+      </div>
+      <div class = "container-blogs grid-blogs-2cols">
+        <div class = "card-blog">
+          <div class = "container-blog-img">
+            <img class = "blog-img" src = "img/Hero-img/hero-img15.webp">
+          </div>
+          <div class = "card-text">
+            <div class = "container-card-date">
+              <div class = "card-date-num">10</div>
+              <div class = "card-date">NOV 2024</div>
+            </div>
+            <div class = "card-info">
+              <div class = "card-name">published in
+                <a href = "Blog.html" class = "arrivals">new arrivals</a>
+              </div>
+              <a href = "Blog1.html" class = "link-card-heading">
+              <h4 class = "card-heading">
+                How I became a Web developer, Web designer 
+              </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class = "card-blog">
+          <div class = "container-blog-img">
+            <img class = "blog-img" src = "img/Hero-img/hero-img16.webp">
+          </div>
+          <div class = "card-text">
+            <div class = "container-card-date">
+              <div class = "card-date-num">11</div>
+              <div class = "card-date">OCT 2023</div>
+            </div>
+            <div class = "card-info">
+              <div class = "card-name">published in
+                <a href = "Blog.html" class = "arrivals">new arrivals</a>
+              </div>
+              <a href = "Blog2.html" class = "link-card-heading">
+              <h4 class = "card-heading">
+                Quick Guide: How to start learning coding!
+              </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "section-logos">
+      <div class = "padding-logos">
+        <div class ="container-logos">
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo1.png">
+          </div>
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo2.png">
+          </div>
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo3.png">
+          </div>
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo4.png">
+          </div>
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo5.png">
+          </div>
+          <div class = "container-logo-img">
+            <img class = "logo-img" src = "img/Logos/Logo6.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "section-faq">
+      <div class = "container-cards-faq">
+        <div class = "faq-header">
+          <div class = "faq-title">
+            <span class = "text-color">Payment</span> & Shipping
+          </div>
+          <h2 class = "faq-heading">Frequently Asked Questions</h2>
+          <a href = "FAQ.html" class = "link-faq">all questions</a>
+        </div>
+        <div class = "container-faq-questions">
+          <div class = "faq-card">
+            <div class = "card-intro">
+            <ion-icon name="chatbubble-outline" class = "chat-icon"></ion-icon>
+            <h5>What is your return policy?</h5>
+            <ion-icon name="add-circle-outline" class = "plus-logo"></ion-icon>
+            </div>
+            <p class = "answer">
+              At Bella, we strive to provide you with high-quality products and exceptional customer service. However, we understand that there might be occasions when you need to return a purchase.
+              Our return policy is designed to be hassle-free and fair, ensuring your satisfaction.
+            </p>
+          </div>    
+          <div class = "faq-card">
+            <div class = "card-intro">
+            <ion-icon name="chatbubble-outline" class = "chat-icon"></ion-icon>
+            <h5>How can I check the status of my order?</h5>
+            <ion-icon name="add-circle-outline" class = "plus-logo"></ion-icon>
+            </div>
+            <p class = "answer">
+              If you made an online purchase, the store usually sends an email confirmation immediately after you place your order. 
+              This email often contains a link to track your order.
+            </p>
+          </div>    
+          <div class = "faq-card">
+            <div class = "card-intro">
+            <ion-icon name="chatbubble-outline" class = "chat-icon"></ion-icon>
+            <h5>Damaged or Defective Items?</h5>
+            <ion-icon name="add-circle-outline" class = "plus-logo"></ion-icon>
+            </div>
+            <p class = "answer">
+              If you receive a damaged or defective item, please contact us immediately.
+               We will arrange for a return or replacement, ensuring that you receive a flawless product.
+            </p>
+          </div>    
+        </div>
+      </div>
+    </section>
+    <section class = "section-gallery">
+      <div class = "container-instagram">
+        <div class = "gallery-left">
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img1.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img5.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img3.jpg">
+          </div>
+          <div class = "gallery-left-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img7.jpg">
+          </div>
+        </div>
+        <div class = "gallery-middle">
+          <div class = "container-logo">
+            <img class = "logo-instagram" src = "img/gallery/instagram (1).png">
+          </div>
+          <div class = "title">
+            <span class = "text-color insta">Follow</span>
+            Us on
+          </div>
+          <h2 class = "instagram-heading">Instagram</h2>
+        </div>
+        <div class = "gallery-right">
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img2.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img6.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img4.jpg">
+          </div>
+          <div class = "gallery-right-img">
+            <img class = "insta-img" src = "img/gallery/gallery-img8.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class ="section-footer">
+      <div class = "footer">
+        <div class = "footer-links">
+          <h6 class = "footer-heading">shop</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "Shirts.html" class = "link">Shirts</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Sneakers.html" class = "link">Sneakers</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Sweat-Shirts.html" class = "link">Sweat-shirts</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "T-Shirts.html" class = "link">T-Shirts</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-links">
+          <h6 class = "footer-heading">pages</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "index.html" class = "link">Home</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Blog.html" class = "link">Blog</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "About.html" class = "link">About</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "FAQ.html" class = "link">FAQ</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "Contact.html" class = "link">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-links">
+          <h6 class = "footer-heading">Others Projects</h6>
+          <div class = "shop-links">
+            <div class = "shop-link">
+              <a href = "#" class = "link">Portfolio</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "https://elishay.netlify.app" class = "link">Omnifood</a>
+            </div>
+            <div class = "shop-link">
+              <a href = "index.html" class = "link">Bella</a>
+            </div>
+          </div>
+        </div>
+        <div class = "footer-subscribe">
+          <h6 class = "footer-heading">newsletter</h6>
+          <div class = "container-input">
+            <ion-icon name="at-outline" class = "footer-icon"></ion-icon>
+            <input class = "subscribe-email" type = "email" placeholder="Email address" required>
+            <ion-icon name="send-outline" class = "send-button"></ion-icon>
+          </div>
+          <div class = "cta-Privacy">
+            We never share your info. View our <a class = "link-privacy" href = "#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class = "last-container">
+        <div class = "creator-web-container">
+          Created with love by
+          <a class = "link-elishay" href = "#">
+            Elishay Assayagh
+          </a>
+        </div>
+        <div class = "bank-img-container">
+          <div class = "div-img">
+            <img class = "img-card" src = "img/Logos/Logo-visa.png">
+          </div>
+          <div class = "div-img">
+            <img class = "img-card" src = "img/Logos/Logo-master-card.png">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* ******************** */
+/* Shop */
+/* ******************** */
+
+.header-shop {
+  background-color: #ebeff1;
+  position: relative;
+}
+.header-intro {
+  padding-top: 7.2rem;
+  padding-left: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-shirts {
+  margin-bottom: 4px;
+  font-family: "Great Vibes", cursive;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.text-color-shop {
+  color: #ff6852;
+}
+.page-heading-shop {
+  margin-bottom: 2.4rem;
+  font-size: 4.4rem;
+  line-height: 6rem;
+}
+.divider-color {
+  background-color: #ff6852;
+  width: 10rem;
+  height: 0.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2.3rem;
+}
+.mini-nav {
+  position: absolute;
+  right: 15.5rem;
+  bottom: -1.5rem;
+  z-index: 1;
+  display: flex;
+  gap: 1rem;
+  height: 3.1rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  background-color: #fff;
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+.link-dark:link,
+.link-dark:visited {
+  color: #151515;
+  font-weight: 700;
+  text-decoration: none;
+  padding-right: 0.7rem;
+  transition: color 0.4s ease;
+}
+.link-dark:nth-child(5) {
+  color: #888;
+  font-weight: 700;
+}
+.link-dark:hover,
+.link-dark:active {
+  color: #ff6852;
+}
+.icon-chevron {
+  color: #888;
+  width: 1.3rem;
+  height: 1.3rem;
+  padding-right: 0.5rem;
+}
+/* ******************** */
+/*SECTION SHOP FEATURED*/
+/* ******************** */
+.section-shop-shirts {
+  padding: 12.8rem 2.4rem;
+}
+.container-shop {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.shop-sidebar {
+  width: 25%;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.category-side-bar {
+  padding-bottom: 5.6rem;
+}
+.sidebar-heading {
+  font-size: 2rem;
+  font-family: "Lora", sans-serif;
+  line-height: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.8rem;
+}
+.link-title-shop {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: #151515;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.link-title-shop:hover {
+  color: #ff6852;
+}
+.specify {
+  display: flex;
+  align-items: center;
+}
+.link-shopping:link,
+.link-shopping:visited {
+  display: block;
+  text-decoration: none;
+  color: #151515;
+  font-weight: 600;
+  padding-left: 0rem;
+  transition: color 0.4s ease;
+  transition: all 0.4s ease;
+}
+.link-shopping:hover,
+.link-shopping:active {
+  color: #ff6852;
+  margin-left: 0.5rem;
+}
+.container-featured {
+  padding-bottom: 5.6rem;
+  position: sticky;
+  top: 0;
+}
+.container-img {
+  width: 100%;
+}
+.sidebar-feature {
+  display: flex;
+  align-items: center;
+}
+.img-featured {
+  width: 6.4rem;
+  margin-right: 2rem;
+}
+
+.featured-heading {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 0.4s;
+}
+.featured-heading:hover {
+  color: #ff6852;
+}
+.featured-price {
+  color: #888;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+/* ******************** */
+/*SECTION SHOP ClOTHES*/
+/* ******************** */
+.container-list-clothes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.container-shop {
+  display: flex;
+}

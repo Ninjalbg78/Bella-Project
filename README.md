@@ -13,3 +13,4 @@ Your satisfaction is our priority, and we are excited to have you on board as we
 
 ## THE LINK OF THE WEBSITE
 https://bella-project.netlify.app
+## Overview of the project
